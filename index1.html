@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../css/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../slick-1.8.1/slick/slick.js"></script>
+    <link rel="stylesheet" href="../slick-1.8.1/slick/slick.css">
+
+    <script> $(function () {
+        $('#js-slider-2').slick({
+          arrows: true, // 前・次のボタンを表示する
+          speed: 1000, // スライドさせるスピード（ミリ秒）
+          slidesToShow: 1, // 表示させるスライド数
+         
+        });
+      });
+    </script>
+    <script> $(function () {
+        $('#js-slider-3').slick({
+          arrows: true, // 前・次のボタンを表示する
+          speed: 1000, // スライドさせるスピード（ミリ秒）
+          slidesToShow: 3, // 表示させるスライド数
+         
+        });
+      });
+    </script>
+
+</head>
+
+<body>
+    <div class="header">
+        <ul id="menu">
+            <li class="header_menu"><a href="#introduction"><img src="../images/profile_menu.png"></a></li>
+            <li class="header_menu"><a href="#news"><img src="../images/news_menu.png"></a></li>
+            <li class="header_menu"><a href="#act"><img src="../images/act_menu.png"></a></li>
+            <li class="header_menu"><a href="#gacha"><img src="../images/gacha_menu.png"></a></li>
+            <li class="header_menu"><a href="#"><img src="../images/contact_menu.png"></a></li>
+        </ul>
+    </div>
+    
+    <div class="main">
+        <div class="inner_a">
+        <img src="../images/main_illust.png" id="main_illust">
+        </div>
+    </div>
+
+    <div id="introduction">
+        <div class="inner_intr">
+            <img src="../images/intr_tit.png" id="intr_tit">
+            <img src="../images/huku_intr.png" id="hukukun_intr">
+            <p id="intr_text">ぼくたちは、加古川市民を見守る<br>
+                双子のヒーローだよ！<br>
+                福祉を身近に感じてもらいたい<br>
+                という想いが込められて、生まれたんだ。<br>
+                加古川が思いやりと笑顔でいっぱいの<br>
+                まちになるように願っているよ！</p>
+            <img src="../images/kako_intr.png" id="kako_intr">
+
+            <div class="intr_sub">
+            <div id="pr_inner">
+                <img src="../images/pr_tit.png" id="pr_tit">
+
+                <div class="profile_slid">
+
+                    <ul class="slider-2" id="js-slider-2">
+                        <li><img src="../images/pr_contents.png" width="631" height="317"></li>
+                        <li><img src="../images/pr_contents2.png" width="632" height="317"></li>
+                      </ul>
+
+                </div>
+                <p id="youtube">
+                    <iframe width="830" height="518" src="https://www.youtube.com/embed/UNKtk1EYOEk"
+                     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                     clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen></iframe>
+                </p>
+            </div>
+            <div class="fit_inner">
+                <img src="../images/fit_tit.png" id="fit_tit">
+                <div class="fit_contents1">
+                <img src="../images/nae_pic.png" class="fit_pic">
+                <div class="fit_text">
+                    <img src="../images/nae_tit.png" class="fit_subtit">
+                    <p class="fit_ex1">
+                        困っている人を察知して<br>
+                        すぐに駆けつけるよ！</p>
+                </div>
+                </div>
+
+                <div class="fit_contents2">
+                    <div class="fit_text">
+                        <img src="../images/grass_tit.png" class="fit_subtit">
+                        <p class="fit_ex2">
+                            加古川市のみんなを<br>
+                            よーく見守ることができるよ！</p>
+                    </div>
+                    <img src="../images/grass_pic.png" class="fit_pic">
+                    </div>
+
+                    <div class="fit_contents2">
+                        <img src="../images/mant_pic.png" class="fit_pic">
+                        <div class="fit_text">
+                            <img src="../images/mant_tit.png" class="fit_subtit">
+                            <p class="fit_ex1">
+                                困っている人を察知して<br>
+                                すぐに駆けつけるよ！</p>
+                        </div>
+                        </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="news">
+        <div class="news_inner">
+        <img src="../images/news_title.png" id="news_tit">
+        <div class="news_contents">
+            
+            <div class="news_contents_inner">
+            <div class="news_contents_textall">
+            <div class="news_contents_all">
+            <div class="news_contents_text">
+                <img src="../images/news_surcle-1.png" class="news_surcle">
+                <p class="news_text">2023.01.01</p>
+                <p class="news_text2">NEW</p>
+                <p class="news_text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+                <img src="../images/news_arrow.png" class="news_arrow" height="13" width="11">
+            </div>
+            <div class="news_contents_all">
+                <div class="news_contents_text">
+                    <img src="../images/ivent_surcle.png" class="news_surcle">
+                    <p class="news_text">2023.01.01</p>
+                    <p class="news_text2">NEW</p>
+                    <p class="news_text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+                    <img src="../images/news_arrow.png" class="news_arrow" height="13" width="11">
+                </div>
+            <div class="news_contents_all">
+                    <div class="news_contents_text">
+                        <img src="../images/news_surcle-1.png" class="news_surcle">
+                        <p class="news_text">2023.01.01</p>
+                        <p class="news_text2">NEW</p>
+                        <p class="news_text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    </div>
+                        <img src="../images/news_arrow.png" class="news_arrow" height="13" width="11">
+                    </div>
+            </div>
+            <a href="#news"><img src="../images/news_all.png" id="news_all"></a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="act">
+        <div id="act_inner">
+            <img src="../images/act_tit.png" id="act_tit">
+
+           
+                <ul class="slider-3" id="js-slider-3">
+                    <li><img src="../images/shunsoku.png" width="270" height="265"></li>
+                    <li><img src="../images/jc.png" width="270" height="265"></li>
+                    <li><img src="../images/boran.png" width="270" height="265"></li>
+                    <li><img src="../images/bousai.png" width="270" height="265"></li>
+                    <li><img src="../images/tu-de.png" width="270" height="265"></li>
+                    <li><img src="../images/instw.png" width="270" height="265"></li>
+                  </ul>
+
+               
+            <a href="#act"><img src="../images/act_all_bottun.png" id="act_all"></a>
+        </div>
+    </div>
+    
+    <div id="gacha">
+        <div id="gacha_inner">
+
+        <img src="../images/gacha_lil.png" id="gacha_lil">
+        <div class="gacha_contents">
+            <img src="../images/gacha_big.png" id="gacha_big">
+            <div class="gacha_ex">
+                <img src="../images/gacha_tit.png" id="gacha_tit">
+                <img src="../images/akaihane.png" id="akaihane">
+
+                <div class="gacha_bacchi">
+                  <div class="gacha_b_row">
+                    <img src="../images/sample1.png">
+                    <img src="../images/sample2.png">
+                    <img src="../images/sample3.png">
+                  </div>  
+                  <div class="gacha_b_row">
+                    <img src="../images/sample4.png">
+                    <img src="../images/sample5.png">
+                    <img src="../images/sample6.png">
+                  </div>
+                </div>
+                <div class="gacha_textall">
+                <p class="gacha_text">※ふくくん・かこちゃんの缶バッチが出てくる仕様となっております</p>
+                <p class="gacha_text">※缶バッチは全部で6種類あります</p></div>
+            </div>
+        </div>
+           <a href="#gacha"><img src="../images/gacha_bottun.png" id="gacha_bottun"></a>
+        </div>
+</div>
+
+    <div class="footer">
+        <div class="footer_inner">
+            <img src="../images/insta_text.png" id="inst_text">
+            <a href="https://instagram.com/huku_kako?igshid=YmMyMTA2M2Y"><img src="../images/insta_icon.png" id="inst_icon"></a>
+
+            <ul class="footer_menu">
+                <li><a href="#introduction"><img src="../images/hukukun_menu_footer.png" id="fmenu"></a></li>
+                <li><a href="#news"><img src="../images/news_menu_footer.png" id="fmenu"></a></li>
+                <li><a href="#act"><img src="../images/act_menu_foooter.png" id="fmenu"></a></li>
+                <li><a href="#gacha"><img src="../images/gacha_menu_footer.png" id="fmenu"></a></li>
+                <li><a href="#"><img src="../images/contact.png" id="fmenu"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="name">
+        <p id="name_co">社会福祉法人　加古川市社会福祉協議会</p>
+    </div>
+</body>
+</html>
